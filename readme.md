@@ -9,7 +9,7 @@ This repository contains the code for building the Blog of Sayanee.
     ```
     blog
     ```
-    
+
 ##Deploy
 
 1. run the following git command to publish the changes
@@ -17,5 +17,5 @@ This repository contains the code for building the Blog of Sayanee.
     ```
     git push origin gh-pages
     ```
- 
- 
+
+
