@@ -19,3 +19,18 @@ Prism.languages.ruby=Prism.languages.extend("clike",{comment:/#[^\r\n]*(\r?\n|$)
 (function(){function e(e,t){return Array.prototype.slice.call((t||document).querySelectorAll(e))}function n(e,t,n){var r=t.replace(/\s+/g,"").split(","),i=+e.getAttribute("data-line-offset")||0,s=parseFloat(getComputedStyle(e).lineHeight);for(var o=0,u;u=r[o++];){u=u.split("-");var a=+u[0],f=+u[1]||a,l=document.createElement("div");l.textContent=Array(f-a+2).join(" \r\n");l.className=(n||"")+" line-highlight";l.setAttribute("data-start",a);f>a&&l.setAttribute("data-end",f);l.style.top=(a-i-1)*s+"px";(e.querySelector("code")||e).appendChild(l)}}function r(){var t=location.hash.slice(1);e(".temporary.line-highlight").forEach(function(e){e.parentNode.removeChild(e)});var r=(t.match(/\.([\d,-]+)$/)||[,""])[1];if(!r||document.getElementById(t))return;var i=t.slice(0,t.lastIndexOf(".")),s=document.getElementById(i);if(!s)return;s.hasAttribute("data-line")||s.setAttribute("data-line","");n(s,r,"temporary ");document.querySelector(".temporary.line-highlight").scrollIntoView()}if(!window.Prism)return;var t=crlf=/\r?\n|\r/g,i=0;Prism.hooks.add("after-highlight",function(t){var s=t.element.parentNode,o=s&&s.getAttribute("data-line");if(!s||!o||!/pre/i.test(s.nodeName))return;clearTimeout(i);e(".line-highlight",s).forEach(function(e){e.parentNode.removeChild(e)});n(s,o);i=setTimeout(r,1)});addEventListener("hashchange",r)})();;
 Prism.hooks.add("after-highlight",function(e){var t=e.element.parentNode;if(!t||!/pre/i.test(t.nodeName)||t.className.indexOf("line-numbers")===-1){return}var n=1+e.code.split("\n").length;var r;lines=new Array(n);lines=lines.join("<span></span>");r=document.createElement("span");r.className="line-numbers-rows";r.innerHTML=lines;if(t.hasAttribute("data-start")){t.style.counterReset="linenumber "+(parseInt(t.getAttribute("data-start"),10)-1)}e.element.appendChild(r)})
 ;
+
+
+(function () {
+  var quotation = document.getElementsByClassName('quote')[0];
+  var quotationList = [
+    'Whatever you can do, or dream you can, begin it.<br>Boldness has genius, magic, and power in it.<br>Begin it now.<br>~ Goethe',
+    'The only people who get paid enough, get paid what they\'re worth are people who don\'t follow the instruction book, who create art, who are innovative, who work without a map. That option is now available to everyone so take it.<br>~ Seth Godin'
+  ];
+  var min = 0;
+  var max = 1;
+  var randomQuote = Math.floor(Math.random() * (max - min + 1) + min);
+
+  quotation.innerHTML = quotationList[randomQuote];
+
+})();
