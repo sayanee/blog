@@ -18,4 +18,6 @@ This repository contains the code for building the Blog of Sayanee.
     git push origin gh-pages
     ```
 
+##Credits
 
+1. http://www.joaoricardomachado.com/Dear-Life-Alphabet

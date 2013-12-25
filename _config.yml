@@ -1,7 +1,8 @@
-name: Blog of Sayanee
+name: Sayanee
+description: on web & iot, minimalism, space
 destination: ./_publish
 permalink: /:title
 markdown: redcarpet
-url: http://blog.sayan.ee
+url: http://sayanee.github.io/blog
 
 exclude: ['sass', 'node_modules', 'Gruntfile.js', 'package.json', 'readme.md']

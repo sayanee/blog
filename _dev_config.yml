@@ -1,4 +1,5 @@
-name: Dev Blog of Sayanee
+name: Sayanee
+description: on web & iot, minimalism, space
 destination: ./_publish
 permalink: /:title
 markdown: redcarpet
