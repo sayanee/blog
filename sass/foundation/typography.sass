@@ -15,36 +15,31 @@ a
   &:hover, &:active
     border-bottom: 1px solid $blue
 
-
 code
   font-family: 'Droid Sans Mono', sans-serif
 
 .title
   text-align: center
-  font-size: 3.5em
+  font-size: 2em
   font-family: 'Krona One', sans-serif
   text-transform: uppercase
   margin: 0
   line-height: 1.4em
   text-shadow: 1px 1px lighten($blue, 30%), 2px 2px lighten($blue, 30%), 3px 3px lighten($blue, 30%)
   -webkit-transition: all 0.12s ease-out
+  @include transition-property(all)
+  @include transition-duration(0.3s)
+  @include transition-timing-function(ease)
   a
     border-bottom: none
-    color: $blue
-    &:hover, &:active
-      color: $blue
-  // &:hover
-  //   text-shadow: 1px 1px lighten($blue, 30%), 2px 2px lighten($blue, 30%), 3px 3px lighten($blue, 30%), 4px 4px lighten($blue, 30%), 5px 5px lighten($blue, 30%), 6px 6px lighten($blue, 30%)
-  //   position: relative
-  //   top: -3px
-  //   left: -3px
+    color: $black
 
 .subtitle
   text-align: center
   margin: 0
-  font-size: 1em
+  font-size: .55em
   font-family: 'Krona One', sans-serif
-  color: $red
+  color: $blue
 
 
 
