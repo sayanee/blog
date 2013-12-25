@@ -1,8 +1,11 @@
 *
   box-sizing: border-box
+  margin: 0
 
-body
-  font-size: 1.4em
+body, html
+  font-size: 1.2em
+  height: 100%
+  color: $black
 
 ::selection
   background: lighten($blue, 40%)
@@ -10,9 +13,21 @@ body
   background: lighten($blue, 40%)
 
 .site
-  width: $site-width
-  margin: 0 auto
+  margin: 0 auto (-$footer-height) auto
+  min-height: 100%
+  &:after
+    content: ""
+    display: block
+
+.site:after, .footer
+  height: $footer-height
+
+.home
+  padding: 0 calc(50% - 400px)
 
 .header
-  margin: 4em 0
+  padding: 4em calc(50% - 400px)
+  background-color: lighten($black, 73%)
 
+.footer
+  padding: 0 calc(50% - 400px)

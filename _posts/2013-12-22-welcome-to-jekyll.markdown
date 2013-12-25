@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2013-12-22 11:11:59
 categories: jekyll update
+abstract: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, illum, perspiciatis maxime dolorum commodi nostrum obcaecati.
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

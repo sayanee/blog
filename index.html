@@ -1,13 +1,15 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: on Web & IOT, Minimalism, Space
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
+<div class="home">
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li>
+        <h4 class="date">{{ post.date | date_to_string }}</h4>
+        <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p class="abstract">{{ post.abstract }}</p>
     {% endfor %}
   </ul>
 </div>

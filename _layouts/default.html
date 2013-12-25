@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{{ page.title }}</title>
+  <title>Sayanee | {{ page.title }}</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="app.css">
@@ -15,36 +15,13 @@
 
 <div class="site">
 
-  <header class="header">
-    <div class="header-logo">
-      <div class="logo"></div>
-      <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-    </div>
-    <h2 class="subtitle">{{ site.description }}</h2>
-  </header>
+  {% include header.html %}
 
   {{ content }}
 
-  <div class="footer">
-
-    <div class="contact">
-      <p>
-        Your Name<br />
-        What You Are<br />
-        you@example.com
-      </p>
-    </div>
-
-    <div class="contact">
-      <p>
-        <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-        <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-      </p>
-    </div>
-
-  </div>
-
 </div>
+
+{% include footer.html %}
 
 <script>
 (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
