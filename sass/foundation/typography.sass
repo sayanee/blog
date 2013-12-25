@@ -15,9 +15,26 @@ a
     color: $red
 
 blockquote
-  border-left: 10px solid $grey
-  margin: 0
-  padding-left: 40px
+  margin: 2em 0
+  background-color: lighten($blue, 50%)
+  position: relative
+  padding: 1em
+  p
+    margin: 0
+  &:before, &:after
+    font-size: 5em
+    position: absolute
+    margin: 0
+    line-height: 1em
+    color: lighten($blue, 10%)
+  &:before
+    content: "“"
+    top: -.3em
+    left: 0
+  &:after
+    content: "”"
+    right: 0
+    bottom: -.7em
 
 code
   font-family: 'Droid Sans Mono', sans-serif
@@ -38,6 +55,31 @@ code
     border-bottom: none
     color: lighten($black, 20%)
 
+@font-face
+  font-family: 'Icon'
+  src: url('fonts/blog-icons.eot')
+  src: url('fonts/blog-icons.eot?#iefix') format('embedded-opentype'), url('fonts/blog-icons.ttf') format('truetype'), url('fonts/blog-icons.woff') format('woff'), url('fonts/blog-icons.svg#blog-icons') format('svg')
+  font-weight: normal
+  font-style: normal
+
+
+[class^="icon-"], [class*=" icon-"]
+  font-family: 'Icon'
+  speak: none
+  font-style: normal
+  font-weight: normal
+  font-variant: normal
+  text-transform: none
+  line-height: 1
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+.icon-comments:before
+  content: "\e60c"
+
+.icon-ideas:before
+  content: "\e600"
+
 .subtitle
   text-align: center
   margin: 0
@@ -51,3 +93,22 @@ code
   font-size: .7em
   margin: 0
   font-family: 'Droid Sans', Helvetica Neue, sans-serif
+
+.date
+  font-size: .8em
+  color: $grey
+  font-weight: normal
+  margin: 0
+
+.post-title
+  margin: 0
+  a
+    color: $blue
+    font-size: 1.5em
+    border-bottom: none
+    &:hover
+      color: $red
+
+.abstract
+  font-size: .8em
+  margin: 0

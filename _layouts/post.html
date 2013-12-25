@@ -22,12 +22,12 @@
     <div class="menu">
       <a href="/">home</a>
       <br>
-      <a href="/">web & iot</a>
+      <a href="/">web & iot </a>
     </div>
   </aside>
 
   <div class="post">
-    <h4 class="date">{{ page.date | date_to_string }}</h4>
+    <h4 class="date">{{ page.date | date_to_string }} on {% for cat in page.categories %}{{ cat }}{% endfor %}</h4>
     <h3 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h3>
 
     <p class="post-abstract">{{ page.abstract }}</p>
