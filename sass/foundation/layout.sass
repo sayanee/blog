@@ -20,14 +20,18 @@ body, html
     display: block
 
 .site:after, .footer
-  height: $footer-height
+  min-height: $footer-height
 
 .home
-  padding: 0 calc(50% - 400px)
+  padding: 0 calc(50% - 350px)
 
 .header
-  padding: 4em calc(50% - 400px)
-  background-color: lighten($black, 73%)
+  padding: 4em calc(50% - 350px)
+  background-color: lighten(black, 98%)
+
+.post
+  padding: 3em calc(50% - 350px)
 
 .footer
-  padding: 0 calc(50% - 400px)
+  padding: .8em calc(50% - 350px)
+  background-color: lighten(black, 98%)

@@ -1,0 +1,14 @@
+.sidebar
+  position: fixed
+  right: 3em
+  top: 3em
+  font-size: .5em
+  &:hover
+    .logo
+      &:before, &:after
+        @include rotate(30deg)
+    .menu
+      display: block
+
+.menu
+  display: none

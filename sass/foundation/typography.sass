@@ -8,19 +8,23 @@ h1, h2, h3, h4, h5, h6
   font-family: 'Droid Sans', Helvetica Neue, sans-serif
 
 a
-  color: $blue
   text-decoration: none
   &:link, &:visited
-    border-bottom: 1px solid $grey
+    color: $blue
   &:hover, &:active
-    border-bottom: 1px solid $blue
+    color: $red
+
+blockquote
+  border-left: 10px solid $grey
+  margin: 0
+  padding-left: 40px
 
 code
   font-family: 'Droid Sans Mono', sans-serif
 
 .title
   text-align: center
-  font-size: 2em
+  font-size: 2.5em
   font-family: 'Krona One', sans-serif
   text-transform: uppercase
   margin: 0
@@ -37,9 +41,13 @@ code
 .subtitle
   text-align: center
   margin: 0
-  font-size: .55em
+  font-size: .75em
   font-family: 'Krona One', sans-serif
   color: $blue
 
-
-
+.quote
+  text-align: center
+  color: $grey
+  font-size: .7em
+  margin: 0
+  font-family: 'Droid Sans', Helvetica Neue, sans-serif
