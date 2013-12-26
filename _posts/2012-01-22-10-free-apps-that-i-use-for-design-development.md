@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "10 free apps that I use for design & development"
-categories: jekyll update
+categories:
+- web
+
 abstract: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, illum, perspiciatis maxime dolorum commodi nostrum obcaecati.
 ---
 

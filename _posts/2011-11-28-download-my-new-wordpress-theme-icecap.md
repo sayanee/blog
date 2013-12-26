@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "Download my new wordpress theme icecap"
-categories: jekyll update
+categories:
+- web
+- iot
 abstract: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, illum, perspiciatis maxime dolorum commodi nostrum obcaecati.
 ---
 

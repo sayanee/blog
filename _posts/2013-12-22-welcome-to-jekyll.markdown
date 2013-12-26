@@ -2,7 +2,10 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2013-12-22 11:11:59
-categories: web & iot
+categories:
+- web
+- iot
+- math
 abstract: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, illum, perspiciatis maxime dolorum commodi nostrum obcaecati.
 ---
 
