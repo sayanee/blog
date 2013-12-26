@@ -3,6 +3,6 @@ description: on web & iot, minimalism, space
 destination: ./_publish
 permalink: /:title
 markdown: redcarpet
-url: http://sayanee.github.io/blog
+url: http://blog.sayan.ee
 
 exclude: ['sass', 'node_modules', 'Gruntfile.js', 'package.json', 'readme.md']
