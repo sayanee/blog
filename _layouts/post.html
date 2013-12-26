@@ -15,16 +15,7 @@
 
 <div class="site">
 
-  <aside class="sidebar">
-    <div class="logo"></div>
-    <br>
-    <br>
-    <div class="menu">
-      <a href="/">home</a>
-      <br>
-      <a href="/">web & iot </a>
-    </div>
-  </aside>
+  {% include sidebar.html %}
 
   <div class="post">
     <h4 class="date">{{ page.date | date_to_string }} on {% for cat in page.categories %}{{ cat }}{% endfor %}</h4>

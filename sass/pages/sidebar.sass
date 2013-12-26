@@ -3,8 +3,10 @@
   right: 3em
   top: 3em
   font-size: .5em
+  width: 100px
   &:hover
     .logo
+      margin: 0 auto
       &:before, &:after
         @include rotate(30deg)
     .menu
@@ -12,3 +14,8 @@
 
 .menu
   display: none
+  font-size: 1.5em
+  list-style: none
+  padding: 0
+  li
+    text-align: center
