@@ -71,7 +71,14 @@ module.exports = function(grunt) {
         options: {
           spawn: false,
         }
-      }
+      },
+      uglify: {
+        files: ['js/lib/prism.js', 'js/main.js'],
+        tasks: ['uglify'],
+        options: {
+          spawn: false,
+        },
+      },
     }
 
   });
