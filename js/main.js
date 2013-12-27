@@ -16,7 +16,7 @@
     'You are what you settle for.',
     '"What day is it?" asked Pooh.<br>"It is today." squealed Piglet.<br>"My favourite day" said Pooh.',
     'The cure for boredom is curiosity. There is no cure for curiosity.<br>~ Dorothy Parker',
-    'Live the full life of the mind, exhilarated by new ideas, intoxicated by the romance of the unusual.<br>~ Ernest Hemingway',
+    'Live the full life of the mind, exhilarated by new ideas,<br>intoxicated by the romance of the unusual.<br>~ Ernest Hemingway',
     'He who works with his hands is a laborer.<br>He who works with his hands and his head is craftsman.<br>He who works with his hands, his head and his heart is an artist.<br>~ St. Francis of Assisi',
     'If your biggest dreams in life can be found on sale in a catalog, you should try dreaming bigger.',
     'It\'s your road and yours alone. Others may walk it with you, but no one can walk it for you.<br>~ Rumi',
