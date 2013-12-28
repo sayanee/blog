@@ -9,14 +9,6 @@ module.exports = function(grunt) {
     },
 
     compass: {
-      development: {
-        options: {
-          specify: 'sass/app.sass',
-          cssPath: '.',
-          outputStyle: 'expanded',
-          noLineComments: true
-        }
-      },
       production: {
         options: {
           specify: 'sass/app.sass',
@@ -89,7 +81,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('default', ['clean', 'compass:development', 'jshint', 'uglify', 'watch']);
+  grunt.registerTask('default', ['clean', 'compass:production', 'jshint', 'uglify', 'watch']);
   grunt.registerTask('publish', ['clean', 'compass:production', 'uglify']);
 
 };
