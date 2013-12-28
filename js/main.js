@@ -51,11 +51,17 @@
     'The desire to write grows with writing.<br>~ Desiderius Erasmus',
     'First there is a mountain. Then there is no mountain. Then there is.<br>~ Zen proverb',
     'The point is that you learn how to make your work by making your work, and a great many of the pieces you make along the way will never stand out as finished art. The best you can do is make art you care about — and lots of it!<br>~ Art and Fear',
-    'Most of us have two lives. The life we live, and the unlived life within us. Between the two stands Resistance.<br>~ War of Art, Steven Pressfield',
+    'Most of us have two lives. The life we live, and the unlived life within us.<br>Between the two stands Resistance.<br>~ War of Art, Steven Pressfield',
     'Eternity is in love with the creations of time.<br>~ William Blake',
     'What you need to know about the next piece is contained in the last piece.<br>The place to learn about your execution is in your execution.<br>Put simply, your work is your guide: a complete, comprehensive, limitless reference book on your work.<br>~ Art & Fear',
     'In matters of change, the compass is more important than the clock.<br>~ Abraham Lincoln',
-    'Never doubt that a small group of thoughtful, committed citizens can change the world.<br>Indeed, it is the only thing that ever has.<br> ~ Margaret Mead'
+    'Never doubt that a small group of thoughtful, committed citizens can change the world.<br>Indeed, it is the only thing that ever has.<br> ~ Margaret Mead',
+    'Just as a well-filled day brings blessed sleep, so a well-employed life brings a blessed death.',
+    'Become who you are by learning who you are.<br>~ Pindar, Greek poet',
+    'One can have no smaller or greater mastery than mastery of oneself.<br>~ Leonardo da Vinci',
+    'Poor is the apprentice who does not surpass his Master.<br>~ Leonardo da Vinci',
+    'Chance favors only the prepared mind.<br> ~ Louis Pasteur',
+    'It is in fact the height of selfishness to merely consume what others create and to retreat into a shell of limited goals and immediate pleasures.<br>~ Mastery by Robert Greene'
   ];
   var min = 0;
   var max = quotationList.length - 1;
