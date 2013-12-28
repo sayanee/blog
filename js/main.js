@@ -43,7 +43,19 @@
     'I\'m enchanted to observe that in recent times the universe and its contents have risen to serve as the artist\'s muse.<br>~ <a href="https://twitter.com/neiltyson/status/415326930825904128">Neil deGrasse Tyson</a>',
     'The meaning of life is to find your gift. The purpose of life is to give it away.<br>~ <a href="https://twitter.com/dam/status/411043479393812480">Pablo Picasso</a>',
     'To follow the path: look to the master, follow the master, walk with the master, see through the master, become the master.<br>~ <a href="https://twitter.com/creationix/status/408702633617420288">Zen</a>',
-    'You want to say no at the right time and you want to say yes more sparingly.<br>~ <a href="http://99u.com/workbook/18460/bill-murray-saying-yes-can-imprison-you">Bill Murray</a>'
+    'You want to say no at the right time and you want to say yes more sparingly.<br>~ <a href="http://99u.com/workbook/18460/bill-murray-saying-yes-can-imprison-you">Bill Murray</a>',
+    'In every work of genius we recognize our own rejected thoughts.<br>~ Ralph Waldo Emerson',
+    'The mind is sharper and keener in seclusion and uninterrupted solitude. No big laboratory is needed in which to think. Originality thrives in seclusion free of outside influences beating upon us to cripple the creative mind. Be alone, that is the secret of invention; be alone, that is when ideas are born.<br>~ Nikola Tesla',
+    'Creative work is not a selfish act or a bid for attention on the part of the actor. It\'s a gift to the world and every being in it. Don\'t cheat us of your contribution. Give us what you\'ve got.<br>~ War of Art',
+    'We have a right to our labor but not to the fruits of our labor.<br>~ Krishna to Arjun, Mahabharata',
+    'The desire to write grows with writing.<br>~ Desiderius Erasmus',
+    'First there is a mountain. Then there is no mountain. Then there is.<br>~ Zen proverb',
+    'The point is that you learn how to make your work by making your work, and a great many of the pieces you make along the way will never stand out as finished art. The best you can do is make art you care about — and lots of it!<br>~ Art and Fear',
+    'Most of us have two lives. The life we live, and the unlived life within us. Between the two stands Resistance.<br>~ War of Art, Steven Pressfield',
+    'Eternity is in love with the creations of time.<br>~ William Blake',
+    'What you need to know about the next piece is contained in the last piece.<br>The place to learn about your execution is in your execution.<br>Put simply, your work is your guide: a complete, comprehensive, limitless reference book on your work.<br>~ Art & Fear',
+    'In matters of change, the compass is more important than the clock.<br>~ Abraham Lincoln',
+    'Never doubt that a small group of thoughtful, committed citizens can change the world.<br>Indeed, it is the only thing that ever has.<br> ~ Margaret Mead'
   ];
   var min = 0;
   var max = quotationList.length - 1;
