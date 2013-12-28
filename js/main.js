@@ -33,7 +33,17 @@
     'I don\'t wait for moods. You can accomplish nothing if you do that.<br>Your mind must know it has to get down to work.<br>~ Pearl S. Buck',
     'All great things take time',
     'The easiest thing is to react.<br>The second easiest thing is to respond.<br>But the hardest things is to initiate.<br>~ Seth Godin',
-    'There is no passion to be found in settling for a life<br>that is less than the one you are capable of living.<br>~ Nelson Mandela'
+    'There is no passion to be found in settling for a life<br>that is less than the one you are capable of living.<br>~ Nelson Mandela',
+    'The folks I know who took the risk to write their own destiny<br>are the ones who seem to enjoy it the most.<br>~ <a href="https://twitter.com/scottbelsky/status/416384582053666816">Scott Belsky</a>',
+    'The monotony of a quiet life stimulates the creative mind.<br>~ Albert Einstein',
+    'I never am really satisfied that I understand anything; because understand it well as I may, my comprehension can only be an infinitesimal fraction of all I want to understand.<br>~ Ada Lovelace',
+    'Most people do not listen with the intent to understand; they listen with the intent to reply.<br>~ Stephen R. Covey',
+    'You will never find out what you can do, until you do all you can to find out.<br>~ John C. Maxwell',
+    'To avoid criticism, say nothing, do nothing, be nothing.',
+    'I\'m enchanted to observe that in recent times the universe and its contents have risen to serve as the artist\'s muse.<br>~ <a href="https://twitter.com/neiltyson/status/415326930825904128">Neil deGrasse Tyson</a>',
+    'The meaning of life is to find your gift. The purpose of life is to give it away.<br>~ <a href="https://twitter.com/dam/status/411043479393812480">Pablo Picasso</a>',
+    'To follow the path: look to the master, follow the master, walk with the master, see through the master, become the master.<br>~ <a href="https://twitter.com/creationix/status/408702633617420288">Zen</a>',
+    'You want to say no at the right time and you want to say yes more sparingly.<br>~ <a href="http://99u.com/workbook/18460/bill-murray-saying-yes-can-imprison-you">Bill Murray</a>'
   ];
   var min = 0;
   var max = quotationList.length - 1;
