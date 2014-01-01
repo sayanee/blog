@@ -43,7 +43,7 @@
     'I\'m enchanted to observe that in recent times the universe and its contents have risen to serve as the artist\'s muse.<br>~ <a href="https://twitter.com/neiltyson/status/415326930825904128">Neil deGrasse Tyson</a>',
     'The meaning of life is to find your gift. The purpose of life is to give it away.<br>~ <a href="https://twitter.com/dam/status/411043479393812480">Pablo Picasso</a>',
     'To follow the path: look to the master, follow the master, walk with the master, see through the master, become the master.<br>~ <a href="https://twitter.com/creationix/status/408702633617420288">Zen</a>',
-    'You want to say no at the right time and you want to say yes more sparingly.<br>~ <a href="http://99u.com/workbook/18460/bill-murray-saying-yes-can-imprison-you">Bill Murray</a>',
+    'Saying "no" has more creative power than ideas, insights, and talent combined. "No" guards time, the thread from which we weave our creations .<br>~ <a href="http://www.inc.com/the-build-network/secret-to-creativity-saying-no.html">INC</a>',
     'In every work of genius we recognize our own rejected thoughts.<br>~ Ralph Waldo Emerson',
     'The mind is sharper and keener in seclusion and uninterrupted solitude. No big laboratory is needed in which to think. Originality thrives in seclusion free of outside influences beating upon us to cripple the creative mind. Be alone, that is the secret of invention; be alone, that is when ideas are born.<br>~ Nikola Tesla',
     'Creative work is not a selfish act or a bid for attention on the part of the actor. It\'s a gift to the world and every being in it. Don\'t cheat us of your contribution. Give us what you\'ve got.<br>~ War of Art',
@@ -61,7 +61,12 @@
     'One can have no smaller or greater mastery than mastery of oneself.<br>~ Leonardo da Vinci',
     'Poor is the apprentice who does not surpass his Master.<br>~ Leonardo da Vinci',
     'Chance favors only the prepared mind.<br> ~ Louis Pasteur',
-    'It is in fact the height of selfishness to merely consume what others create and to retreat into a shell of limited goals and immediate pleasures.<br>~ Mastery by Robert Greene'
+    'It is in fact the height of selfishness to merely consume what others create and to retreat into a shell of limited goals and immediate pleasures.<br>~ Mastery by Robert Greene',
+    'Every child is an artist, the problem is staying an artist when you grow up.<br>~ Pablo Picasso',
+    'Two things define you:<br>You patience when you have nothing,<br>And your attitude when you have everything.',
+    'Civilisation advances by extending the number of important operations when we can perform without thinking about them.<br>~ <a href="http://m.theatlantic.com/magazine/archive/2013/11/the-great-forgetting/309516/">Alfred North Whitehead</a>',
+    'Any sufficiently advanced technology is indistinguishable from magic.<br>~ Arthur C. Clake\'s 3 Laws',
+    'It is possible to be unselfish without a moral code, sophisticated without an education, and beautiful wearing a skeleton on the outside.<br>~ <a href="http://www.brainpickings.org/index.php/2013/09/10/sex-on-six-legs-marlene-zuk/">Marlene Zuk</a>'
   ];
   var min = 0;
   var max = quotationList.length - 1;
