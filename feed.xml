@@ -21,14 +21,12 @@ date: 2013-12-26
       <width>100</width>
       <height>100</height>
       <link>{{ site.url }}</link>
-      <url>{{ site.url }}/logo-100.jpg</url>
+      <url>{{ site.url }}/logo.jpg</url>
     </image>
     <atom:link rel="self" type="application/rss+xml" title="Sayanee" href="{{ site.url }}/feed.xml" />
 
     <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/sayanee"/>
     <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
-
-    <creativeCommons:license>http://creativecommons.org/publicdomain/zero/1.0/</creativeCommons:license>
 
     {% for post in site.posts %}
     <item>
@@ -37,12 +35,11 @@ date: 2013-12-26
       <link>{{ site.url }}{{ post.permalink }}</link>
 
       <description>{{ post.abstract }}</description>
-      <content:encoded><![CDATA[{{ post.abstract }}]]></content:encoded>
 
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <author>Sayanee</author>
 
-      <content:encoded>{{ post.abstract }}</content:encoded>
+      <content:encoded>{{ post.content }}</content:encoded>
     </item>
     {% endfor %}
 
