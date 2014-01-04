@@ -21,7 +21,7 @@ __     __      __     _ _                                 _    _
   {% include sidebar.html %}
 
   <div class="post">
-    <h4 class="date">{{ page.date | date_to_string }} on {% for cat in page.categories %}{{ cat }}{% endfor %}</h4>
+    <h4 class="date">{{ page.date | date_to_string }} on {% for cat in page.categories %}{{ cat }} {% if forloop.last != true %}and {% endif %} {% endfor %}</h4>
     <h3 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h3>
 
     <p class="post-abstract">{{ page.abstract }}</p>
