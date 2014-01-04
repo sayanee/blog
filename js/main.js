@@ -66,7 +66,8 @@
     'Two things define you:<br>You patience when you have nothing,<br>And your attitude when you have everything.',
     'Civilisation advances by extending the number of important operations when we can perform without thinking about them.<br>~ <a href="http://m.theatlantic.com/magazine/archive/2013/11/the-great-forgetting/309516/">Alfred North Whitehead</a>',
     'Any sufficiently advanced technology is indistinguishable from magic.<br>~ Arthur C. Clake\'s 3 Laws',
-    'It is possible to be unselfish without a moral code, sophisticated without an education, and beautiful wearing a skeleton on the outside.<br>~ <a href="http://www.brainpickings.org/index.php/2013/09/10/sex-on-six-legs-marlene-zuk/">Marlene Zuk</a>'
+    'It is possible to be unselfish without a moral code, sophisticated without an education, and beautiful wearing a skeleton on the outside.<br>~ <a href="http://www.brainpickings.org/index.php/2013/09/10/sex-on-six-legs-marlene-zuk/">Marlene Zuk</a>',
+    'I\'ve known people who have not mastered their tools who are good programmers, but not a tool master who remained a mediocre programmer.<br>~ <a href="https://twitter.com/KentBeck/status/398623270917771264">Kent Beck</a>'
   ];
   var min = 0;
   var max = quotationList.length - 1;
