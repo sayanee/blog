@@ -1,5 +1,8 @@
 #Blog of Sayanee
 
+[![Build Status](https://travis-ci.org/sayanee/blog.png)](https://travis-ci.org/sayanee/blog)
+
+
 This repository contains the code for building the Blog of Sayanee.
 
 ##Develop
