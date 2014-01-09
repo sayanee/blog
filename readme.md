@@ -23,4 +23,4 @@ This repository contains the code for building the Blog of Sayanee.
 
 ##Credits
 
-1. http://www.joaoricardomachado.com/Dear-Life-Alphabet
+1. [Geometrical Alphabets](http://www.joaoricardomachado.com/Dear-Life-Alphabet) 
