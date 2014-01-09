@@ -67,7 +67,13 @@
     'Civilisation advances by extending the number of important operations when we can perform without thinking about them.<br>~ <a href="http://m.theatlantic.com/magazine/archive/2013/11/the-great-forgetting/309516/">Alfred North Whitehead</a>',
     'Any sufficiently advanced technology is indistinguishable from magic.<br>~ Arthur C. Clake\'s 3 Laws',
     'It is possible to be unselfish without a moral code, sophisticated without an education, and beautiful wearing a skeleton on the outside.<br>~ <a href="http://www.brainpickings.org/index.php/2013/09/10/sex-on-six-legs-marlene-zuk/">Marlene Zuk</a>',
-    'I\'ve known people who have not mastered their tools who are good programmers, but not a tool master who remained a mediocre programmer.<br>~ <a href="https://twitter.com/KentBeck/status/398623270917771264">Kent Beck</a>'
+    'I\'ve known people who have not mastered their tools who are good programmers, but not a tool master who remained a mediocre programmer.<br>~ <a href="https://twitter.com/KentBeck/status/398623270917771264">Kent Beck</a>',
+    'A thing is not right because we do it.<br>A method is not good because we use it.<br>Equipment is not best because we own it.<br>~ John Aldair',
+    'If you are asked to look for a needle in a haystack, you search until you find it, whereas I search until I find all the needles.<br>~ Albert Einstein',
+    'How I was able to discover the Laws of Gravity? By thinking of it continuously.<br>~ Issac Newton',
+    'Most things are yet to be done. Glorious future!<br>~ Ingvar Kamprad',
+    'If I have seen further, it is by standing on the shoulders of giants.<br>~ Issac Newton',
+    ' I learned very early the difference between knowing the name of something and knowing something.<br>~ Richard Feynman'
   ];
   var min = 0;
   var max = quotationList.length - 1;

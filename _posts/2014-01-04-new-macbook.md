@@ -137,3 +137,10 @@ Can we do it smaller number of steps or in an easier way? I'm keeping a little s
 I would love to hear from you too!
 
 <p class="discussion">What apps or packages do you use very often? How do you keep sharpening your tools?</p>
+
+**Update**: After getting some more tips, I have also install:
+
+1. [FileZilla](https://filezilla-project.org/download.php) for ftp
+1. [Kindle app](https://itunes.apple.com/en/app/kindle/id405399194) to read `*.mobi` format Kindle eBooks
+1. [QuickLook plugins](https://github.com/sindresorhus/quick-look-plugins)
+1. [Sequel Pro](http://www.sequelpro.com/) for MySQL db management
