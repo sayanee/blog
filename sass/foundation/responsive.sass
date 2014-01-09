@@ -1,3 +1,21 @@
+@media only screen and (max-width: ($site-width + 300px))
+  .sidebar
+    width: 100%
+    position: relative
+    top: 0
+    right: 0
+    padding-top: 2em
+    background-color: lighten(black, 98%)
+    .menu
+      display: block
+      text-align: center
+      width: 100%
+      padding-bottom: 2em
+      li
+        display: inline
+        margin: 0 .5em
+        font-size: 1.2em
+
 @media only screen and (max-width: $site-width)
   body
     font-size: 1em
@@ -13,22 +31,5 @@
     padding-top: 1em
   .quote, .subtitle
     width: 100%
-  .sidebar
-    width: 100%
-    position: relative
-    top: 0
-    right: 0
-    padding-top: 2em
-    background-color: lighten(black, 98%)
-    .menu
-      display: block
-      text-align: center
-      width: 100%
-
-      padding-bottom: 2em
-      li
-        display: inline
-        margin: 0 .5em
-        font-size: 1.2em
   .menu li a
     text-decoration: underline
