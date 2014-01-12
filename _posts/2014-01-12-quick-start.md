@@ -31,9 +31,7 @@ ___
     gem install tmuxinator
     </code></pre>
     
-With AlfredApp, we can [call the shell command](http://support.alfredapp.com/features:terminal) without launching any command line application with a simple prefix of `>`. The bash script that we will create will open up various applications, url and paths in the Finder. 
-
-[Tmux](https://wiki.archlinux.org/index.php/tmux) is a terminal multiplexer      
+With AlfredApp, we can [call the shell command](http://support.alfredapp.com/features:terminal) without launching any command line application with a simple prefix of `>`. The bash script that we will create will open up various applications, url and paths in the Finder. [Tmux](https://wiki.archlinux.org/index.php/tmux) is a terminal multiplexer and I use it more oten to layout the arrangement of windows and panes that are running different commands.     
     
 Let's take the example of this blog itself and create the 2 files: 
 
