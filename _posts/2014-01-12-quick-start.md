@@ -213,6 +213,7 @@ One of the challenges of getting into the *zone of creativity* is how fast and e
     <li><a href="http://anvilformac.com/">Anvil for mac</a></li>
     <li><a href="http://yeoman.io/">Yeoman</a></li>
     <li><a href="http://brunch.io/">Brunch</a></li>
+    <li><a href="http://support.apple.com/kb/ht2488">Apple Automator</a></li>
 </ol>   
  
 Would love to know if there is a better or alternative way to launching applications other the current method that I am using. What are your thoughts?  
