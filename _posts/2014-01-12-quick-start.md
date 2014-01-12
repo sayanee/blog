@@ -7,7 +7,7 @@ categories:
 abstract: Often we have about 3 to 4 active projects. I am using a simple bash script with tmuxinator to fire up all the related elements of a single project so that it is ready to code in less than 10 seconds.
 ---
 
-Let's say there is about 3 to 4 active projects. These projects might include, a couple of client projects, a side project or even a blog. Every time when starting each of these projects, typically the following applications need to be opened:
+Let's say we have 3 to 4 active projects at any one time. These projects might include, a couple of client projects, a side project or even a blog. Every time when starting each of these projects, typically the following applications need to be opened:
 
 1. **Text editor** with different folder paths
 1. **Command line** with various panes and tabs
@@ -207,7 +207,7 @@ ___
 
 ##Fast context switching
 
-One of the challenging of getting into the *zone of creativity* is how fast and easily we can launch the various applications and commands to get started, especially if we are spending some time launching them often. Here are some other projects that I found that helps in launching current projects fast:
+One of the challenges of getting into the *zone of creativity* is how fast and easily we can launch the various applications and commands to get started, especially if we are spending some time launching them often. Here are some other projects that I found that helps in launching current projects fast:
 
 <ol class="ideas">
     <li><a href="http://anvilformac.com/">Anvil for mac</a></li>
