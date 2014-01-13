@@ -171,7 +171,7 @@ open https://trello.com/b/xxxxxxx/todo-board-overview # trello tasks
 tmuxinator todo
 </code></pre>
 
-And here is the tmuxinator project file `todo.yml` with 4 windows opening up the development for frontend, backend or api documentation and lastly even the production server. When starting to code, I also usually like to do a `git pull` to sync my code base with the remote repository.
+And here is the tmuxinator project file `todo.yml` with 4 windows opening up the development for frontend, backend or api documentation and lastly even the production server. When starting to code, I usually like to do a `git pull` to sync my code base with the remote repository. Also, when logging into the production server with `ssh`, I directly `cd` into the direcotry required.
 
 <pre><code class="language-bash">name: todo
 root: /Users/sayanee/Workspace/todo
@@ -197,8 +197,8 @@ windows:
   - production:
       layout: even-vertical
       panes:
-        - ssh production-server && cd path/to/frontend
-        - ssh production-server && cd path/to/backend
+        - ssh production -t "cd /path/to/backend ; /bin/zsh"
+        - ssh production -t "cd /path/to/frontend ; /bin/zsh"
 </code></pre>
 
 ___
