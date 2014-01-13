@@ -217,3 +217,5 @@ One of the challenges of getting into the *zone of creativity* is how fast and e
 Would love to know if there is a better or alternative way to launching applications other the current method that I am using. What are your thoughts?  
 
 <p class="discussion">How do you quick launch your various active projects?</p>
+
+**Update**: You can also follow this discussion on [Hacker News](https://news.ycombinator.com/item?id=7045744) with more ideas on how others are implementing this.
