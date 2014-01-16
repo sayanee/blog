@@ -30,14 +30,14 @@ ___
     <pre><code class="language-bash">brew install tmux
     gem install tmuxinator
     </code></pre>
-    
-With AlfredApp, we can [call the shell command](http://support.alfredapp.com/features:terminal) without launching any command line application with a simple prefix of `>`. The bash script that we will create will open up various applications, url and paths in the Finder. [Tmux](https://wiki.archlinux.org/index.php/tmux) is a terminal multiplexer and I use it more oten to layout the arrangement of windows and panes that are running different commands.     
-    
-Let's take the example of this blog itself and create the 2 files: 
 
-1. `blog` (bash script)  
+With AlfredApp, we can [call the shell command](http://support.alfredapp.com/features:terminal) without launching any command line application with a simple prefix of `>`. The bash script that we will create will open up various applications, url and paths in the Finder. [Tmux](https://wiki.archlinux.org/index.php/tmux) is a terminal multiplexer and I use it more oten to layout the arrangement of windows and panes that are running different commands.
+
+Let's take the example of this blog itself and create the 2 files:
+
+1. `blog` (bash script)
 1. `blog.yml` (tmuxinator project file)
-    
+
 ###Create the script file
 
 Usually, I just name the file as the project. In this case, it will be simply `blog`. As this file needs to be an executable, we will also change the file permission with the command `chmod`. Lastly, we will symlink this file to a file in a directory where all such automated scripts are stored. This [directory has to be found in your path variable](http://askubuntu.com/questions/3744/how-do-i-modify-my-path-so-that-the-changes-are-available-in-every-terminal-sess) `$PATH`. Now, this script can be run from any location.
@@ -98,7 +98,7 @@ tmuxinator blog # open tmuxinator project
 
 ###Create the tmuxinator project
 
-Next, we will create the tmuxinator project file that will define the various window, panes and commands to fire when starting the project. Let's first create the file `blog.yml` and create a symlink to the `~/.tmuxinator` folder. 
+Next, we will create the tmuxinator project file that will define the various window, panes and commands to fire when starting the project. Let's first create the file `blog.yml` and create a symlink to the `~/.tmuxinator` folder.
 
 <pre><code class="language-bash">$ touch blog.yml
 
@@ -109,7 +109,7 @@ In the Tmuxinator project, I will define various windows for the following purpo
 
 1. frontend server e.g. `sudo nginx` with [Nginx](http://wiki.nginx.org/Main)
 1. backend server e.g. `rails server` for [Rails](http://rubyonrails.org/)
-1. automated testing 
+1. automated testing
 1. continuous build tool e.g `grunt` for [GruntJS](http://gruntjs.com/)
 1. ssh into the production server e.g. `ssh production && cd path/to/source`
 1. [repl](http://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) e.g. `node` for [NodeJS](http://nodejs.org/) or `irb` for [Ruby](http://en.wikipedia.org/wiki/Interactive_Ruby_Shell)
@@ -163,7 +163,7 @@ open http://localhost:8000 # frontend
 open http://localhost:4000 # api documentation
 open http://localhost:3000 # backend
 
-open https://github.com/username/todo-frontend/issues/assigned/sayanee?state=open 
+open https://github.com/username/todo-frontend/issues/assigned/sayanee?state=open
 open https://github.com/username/todo-backend/issues/assigned/sayanee?state=open
 
 open https://trello.com/b/xxxxxxx/todo-board-overview # trello tasks
@@ -212,9 +212,9 @@ One of the challenges of getting into the *zone of creativity* is how fast and e
     <li><a href="http://yeoman.io/">Yeoman</a></li>
     <li><a href="http://brunch.io/">Brunch</a></li>
     <li><a href="http://support.apple.com/kb/ht2488">Apple Automator</a></li>
-</ol>   
- 
-Would love to know if there is a better or alternative way to launching applications other the current method that I am using. What are your thoughts?  
+</ol>
+
+Would love to know if there is a better or alternative way to launching applications other the current method that I am using. What are your thoughts?
 
 <p class="discussion">How do you quick launch your various active projects?</p>
 

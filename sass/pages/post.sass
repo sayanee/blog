@@ -34,3 +34,20 @@
     font-size: 1.5em
   p
     margin: 0
+
+.os
+  list-style-type: none
+  padding: 0
+  li
+    display: inline-block
+    width: 24%
+    text-align: center
+    background: $red
+    @include border-radius(4px)
+    a
+      display: block
+      padding: 1em
+      color: $white
+    &:hover
+      background: $blue
+
