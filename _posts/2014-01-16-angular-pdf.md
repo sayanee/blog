@@ -20,7 +20,7 @@ Install it for current projects with [bower](http://bower.io/) or simply git clo
 
 <pre><code class="language-bash">bower install angular-pdf
 # or
-git clone git@github.com&#58;sayanee/angularjs-pdf.git
+git clone git@github.com:sayanee/angularjs-pdf.git
 </code></pre>
 
 And once the file `dist/angular-pdf.js` is integrated as a directive `<ng-pdf>` in the application, some simple navigations can be done to the pdf file.
