@@ -74,7 +74,7 @@ abstract: A demo of 6 user experience patterns for web applications that aids in
             <th>Author</th>
           </tr>
         </thead>
-        <tr ng-repeat='book in books' ng-class="{'selected': (book.selected == true)}">
+        <tr ng-repeat='book in books' ng-class="{'demo-selected': (book.selected == true)}">
           <td><input type="checkbox" class="check-ctr" ng-model="book.selected"></td>
           <td>{{ "{{book.name" }}}}</td>
           <td>{{ "{{book.author" }}}}</td>
@@ -134,7 +134,7 @@ abstract: A demo of 6 user experience patterns for web applications that aids in
     <button class="button" ng-show="(count == 0)">Get the books!</button>
 
     <table class="table" ng-hide="(booksOrdered == true)">
-      <tr ng-repeat='book in books' ng-class="{'selected': (book.chosen == true)}">
+      <tr ng-repeat='book in books' ng-class="{'demo-selected': (book.chosen == true)}">
         <td><input ng-hide="(count == 0) && (book.chosen == false)" type="checkbox" class="check-ctr" ng-model="book.chosen" ng-init="book.chosen=false" ng-click="updateCount(book)"></td>
         <td>{{ "{{book.name" }}}}</td>
       </tr>
@@ -158,8 +158,8 @@ abstract: A demo of 6 user experience patterns for web applications that aids in
           <th>Book name</th>
         </tr>
       </thead>
-      <tr ng-repeat='book in books' ng-class="{'selected': (book.chosen == true)}">
-        <td><input type="checkbox" class="check-ctr" ng-model="book.chosen" ng-init="book.chosen=false"></td>
+      <tr ng-repeat='book in books' ng-class="{'demo-selected': (book.chosen == true)}">
+        <td class="demo-fixed"><input type="checkbox" class="check-ctr" ng-model="book.chosen" ng-init="book.chosen=false"></td>
         <td>
           {{ "{{book.name" }}}}
           <p ng-if="book.chosen">{{ "{{book.summary" }}}}</p>
@@ -186,7 +186,10 @@ abstract: A demo of 6 user experience patterns for web applications that aids in
 
 </div>
 
-<style>.selected{ background-color: #ddd;}</style>
+<style>
+.demo-selected{ background-color: #ddd;}
+.demo-fixed{width:20px; vertical-align: baseline;}
+</style>
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>
 <script>
 
