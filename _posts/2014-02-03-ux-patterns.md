@@ -60,7 +60,7 @@ abstract: A demo of 6 user experience patterns for web applications that aids in
 
   <h2>3. emphasized selected item</h2>
 
-  <p>This is a common pattern to emphasize the chosen item among a list. The subtle visual queue helps in pointing out the selection from a large data set. In the following demo, the entire row becomes colored when the user selects the checkbox.</p>
+  <p>This is a common pattern to emphasize the chosen item among a list. The subtle visual cue helps in pointing out the selection from a large data set. In the following demo, the entire row becomes colored when the user selects the checkbox.</p>
 
   <div class="demo">
 
