@@ -51,3 +51,33 @@
     &:hover
       background: $blue
 
+.demo
+  border: 5px solid $red
+  position: relative
+  padding: 1em
+  margin: 2em 0
+  &:before
+    content: "demo"
+    position: absolute
+    right: .5em
+    top: -2.5em
+    color: #fff
+    font-size: .8em
+    background: $red
+    padding: .5em
+    border-radius: 4px
+
+.code
+  position: absolute
+  right: 4.5em
+  top: -2.5em
+  font-size: .8em
+  background: $red
+  padding: .5em
+  border-radius: 4px
+  &:link, &:visited
+    color: #fff
+    text-decoration: none
+  &:hover, &:active
+    color: #fff
+    text-decoration: underline

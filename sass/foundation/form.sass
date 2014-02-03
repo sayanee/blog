@@ -1,0 +1,36 @@
+.button
+  vertical-align: middle
+  font-size: .8em
+  font-family: $serif
+  background: $blue
+  @include border-radius(4px)
+  border: none
+  color: white
+  padding: .5em 1.5em
+  margin: 1em 0
+  &:hover, &:active
+    background: lighten($blue, 5%)
+
+.check-ctr
+  display: block
+  margin: 0 auto
+
+.table
+  width: 100%
+  td, th
+    padding: .5em
+    border: 2px solid $grey
+  th
+    font-weight: bold
+    text-align: left
+
+.textbox
+  padding: 0.5em
+  font-size: 1em
+  font-family: $serif
+  width: 100%
+  @include border-radius(5px)
+  outline: none
+  border: 2px solid $grey
+  &:focus
+    border: 2px solid $blue
