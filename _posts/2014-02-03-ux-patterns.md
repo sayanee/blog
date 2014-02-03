@@ -130,7 +130,7 @@ abstract: A demo of 6 user experience patterns for web applications that aids in
   <div class="demo" ng-controller="BooksCtrl">
     <a class="code" href="http://plnkr.co/edit/PS4TCagaidIYwd30rIQd?p=preview">code</a>
 
-    <p ng-hide="(count == 0)">Choose <strong>{{ "{{count" }}}}</strong> books</p>
+    <p ng-hide="(count == 0)">Choose <strong>{{ "{{count" }}}}</strong> <span ng-show="(count < 3)">more</span> book<span ng-hide="(count == 1)">s</span></p>
     <button class="button" ng-show="(count == 0)">Get the books!</button>
 
     <table class="table" ng-hide="(booksOrdered == true)">
