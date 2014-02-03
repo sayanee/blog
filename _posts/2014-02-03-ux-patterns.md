@@ -50,7 +50,7 @@ abstract: A demo of 6 user experience patterns for web applications that aids in
     <div ng-controller="BooksCtrl">
       <input type="text" class="textbox" ng-model="searchBooks" placeholder="Search book name, author or year">
       <ol>
-        <li ng-repeat='book in books | filter:searchBooks'>
+        <li ng-repeat="book in bookList | filter:searchBooks | orderBy:'name'">
           <strong>{{ "{{book.name" }}}}</strong> by {{ "{{book.author" }}}} <em>[{{ "{{book.published" }}}}]</em>
         </li>
       </ol>
@@ -184,6 +184,8 @@ abstract: A demo of 6 user experience patterns for web applications that aids in
 
   <p class="discussion">What are other UX patterns that can aid the user in info search and decision making?</p>
 
+  <p><strong>Update:</strong> More resource on UX - <a href="http://searchpatterns.org/?">Search Patterns</a>.</p>
+
 </div>
 
 <style>
@@ -202,6 +204,13 @@ app.controller('BooksCtrl', function($scope) {
     { name: 'Getting Started with Electronics', author: 'Forrest M. Mims', published: '1983', summary: 'Teaches you the basics, takes you on a tour of analog and digital components' },
     { name: 'Design of Everyday Things', author: 'Donald A. Norman', published: '1988', summary: 'A powerful primer on how-and why-some products satisfy customers while others only frustrate them.' },
     { name: 'The Feynman Lectures on Physics', author: 'Richard Feynman', published: '1964', summary: 'Lectures on mathematics, electromagnetism, Newtonian physics, quantum physics, and the relation of physics to other sciences' },
+  ];
+
+  $scope.bookList = [
+    { name: 'Design Patterns', author: 'Gang of 4', published: '1994' },
+    { name: 'Getting Started with Electronics', author: 'Forrest M. Mims', published: '1983' },
+    { name: 'Design of Everyday Things', author: 'Donald A. Norman', published: '1988' },
+    { name: 'The Feynman Lectures on Physics', author: 'Richard Feynman', published: '1964' },
   ];
 
   $scope.count =  3;
