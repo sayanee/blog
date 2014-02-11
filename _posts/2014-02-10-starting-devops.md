@@ -23,7 +23,7 @@ ___
 
 Even before we log in to the remote server, we generate a pair of public and private ssh keys. Ultimately, the contents of the public key `*.pub` can go into [Github SSH keys](https://help.github.com/articles/generating-ssh-keys) or the remote computer's [`~/.ssh/authorized_keys` file](http://www.openssh.org/faq.html#3.14).
 
-<pre><code class="language-bash">$ ssh-keygen -t rsa -f project-name -C "name@email.com"
+<pre><code class="language-bash"><!--email_off-->$ ssh-keygen -t rsa -f project-name -C "name@email.com"<!--/email_off-->
 </code></pre>
 
 ###2. `ssh` secure shell
@@ -46,7 +46,7 @@ Next, to login there are various ways of using the `ssh` command. The 3 common w
 
 1. ssh with a [username and a public key](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html#AccessingInstancesLinuxSSHClient)
 
-  <pre><code class="language-bash">$ ssh -i mykey.pem username@server.com</code></pre>
+  <pre><code class="language-bash"><!--email_off-->$ ssh -i mykey.pem username@server.com<!--/email_off--></code></pre>
 
 1. ssh directly into a [particular directory](http://stackoverflow.com/questions/626533/how-can-i-ssh-directly-to-a-particular-directory)
 
@@ -62,11 +62,11 @@ ___
 
 1. from [local to remote](http://stackoverflow.com/questions/11822192/ssh-scp-local-file-to-remote-in-terminal-mac-os-x)
 
-  <pre><code class="language-bash">$ scp -i /path/to/key.pem /path/to/file username@server.com</code></pre>
+  <pre><code class="language-bash"><!--email_off-->$ scp -i /path/to/key.pem /path/to/file username@server.com<!--/email_off--></code></pre>
 
 1. from [remote to local](http://stackoverflow.com/questions/11304895/how-to-scp-a-folder-from-remote-to-local)
 
-  <pre><code class="language-bash">$ scp -i ~/.ssh/key.pem  /path/to/source/file username@server.com:~/path/to/destination/file</code></pre>
+  <pre><code class="language-bash"><!--email_off-->$ scp -i ~/.ssh/key.pem  /path/to/source/file username@server.com:~/path/to/destination/file<!--/email_off--></code></pre>
 
 ###4. `cp` copy
 
