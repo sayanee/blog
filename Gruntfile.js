@@ -39,6 +39,8 @@ module.exports = function(grunt) {
         files: {
           'app.js': [
             'js/lib/prism.js',
+            'js/lib/jquery.js',
+            'js/lib/fitvids.js',
             'js/main.js'
           ]
         }

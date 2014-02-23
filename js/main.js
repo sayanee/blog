@@ -3,6 +3,8 @@
 
   console.log('%c Yo fellow techie!', 'background: #222; color: #bada55');
 
+  $('.video').fitVids();
+
   var quotation = document.getElementsByClassName('quote')[0];
   var quotationList = [
     'Whatever you can do, or dream you can, begin it.<br>Boldness has genius, magic, and power in it.<br>Begin it now.<br>~ Goethe',
