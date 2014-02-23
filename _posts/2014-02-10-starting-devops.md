@@ -226,3 +226,11 @@ There are also frameworks such as [Chef](http://www.getchef.com/chef/) and [Pupp
 I have also come to realize that there is a change in thought processes when I'm doing development versus devops. But in the end, it was rather rewarding to get to understand the file systems in various linux distributions or operating systems.
 
 <p class="discussion">What common commands are you using? How do you automate your DevOps processes?</p>
+
+**Updates**: Some useful tools were suggested:
+
+1. [Ansible](http://www.ansible.com/home)
+1. [Chef](http://www.getchef.com/chef/)
+1. [Capistrano](http://capistranorb.com/)
+1. [Puppet](http://puppetlabs.com/)
+1. [Fabric](http://fabric.readthedocs.org/en/1.8/)
