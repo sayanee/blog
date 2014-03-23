@@ -7,7 +7,7 @@ title: on Web & IOT, Minimalism, Space
   <ul class="posts">
     {% for post in site.posts %}
       <li>
-        <h4 class="date">{{ post.date | date_to_string }} on {% for cat in post.categories %}{{ cat }} {% if forloop.last != true %}and {% endif %} {% endfor %} <a href="{{ post.title }}#disqus_thread">hello</a></h4>
+        <h4 class="date">{{ post.date | date_to_string }} on {% for cat in post.categories %}{{ cat }} {% if forloop.last != true %}and {% endif %} {% endfor %} <a href="{{ post.url }}#disqus_thread">hello</a></h4>
         <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
         <p class="abstract">{{ post.abstract }}</p>
       </li>
