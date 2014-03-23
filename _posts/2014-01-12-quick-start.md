@@ -18,7 +18,7 @@ For each of the projects, the exact requirements to the above 4 applications def
 
 For the past few months, I have been automating the opening up of various project related elements with a single command - the project name itself. Here's how the effect looks like when I open up various application with a single command to work on my blog:
 
-![Quick start projects](/img/quick-start.gif)
+![Quick start projects]({{ site.url }}/img/quick-start.gif)
 
 ___
 
@@ -129,7 +129,7 @@ windows:
 
 With the command `tmuxinator blog`, a tmux session will be started that will look like this:
 
-![Tmuxinator project](/img/tmuxinator-blog.jpg)
+![Tmuxinator project]({{ site.url }}/img/tmuxinator-blog.jpg)
 
 And that's all! With these 2 simple files, now whenever we trigger the command `blog` all the project related elements will open up within seconds!
 

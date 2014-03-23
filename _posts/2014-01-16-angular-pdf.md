@@ -30,7 +30,7 @@ And once the file `dist/angular-pdf.js` is integrated as a directive `<ng-pdf>` 
 &lt;/div>
 </code></pre>
 
-![Angular-PDF preview](/img/ng-pdf.gif)
+![Angular-PDF preview]({{ site.url }}/img/ng-pdf.gif)
 
 ___
 

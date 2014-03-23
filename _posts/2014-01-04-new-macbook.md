@@ -62,34 +62,34 @@ The thing about configuring a brand new machine is that you become aware of the 
 
 1. Show Path Bar, Sidebar, Status Bar. `Finder > View > Show Path Bar/Status bar/Side bar`
 
-    ![Finder View Options](/img/view-options.png)
+    ![Finder View Options]({{ site.url }}/img/view-options.png)
 
 1. Search in Current Folder and show file extensions. `Finder > Preferences > Advanced`
 
-    ![Finder Advanced Preferences](/img/finder-pref.png)
-    
+    ![Finder Advanced Preferences]({{ site.url }}/img/finder-pref.png)
+
 1. [Applets for Finder toolbar](https://github.com/fallroot/applescript-applets) to quickly open the folder in iTerm2 or Sublime Text
 
-    ![Finder Advanced Preferences](/img/finder.png)
+    ![Finder Advanced Preferences]({{ site.url }}/img/finder.png)
 
 ____
 
 I also like to have Hot Corners for easy access to the Desktop and have a snap shot of all the running application windows. Setting: `System Preferences > Desktop & Screen Saver > Screen Saver > Hot Corners`
 
-![Hot Corners](/img/hot-corners.png)
+![Hot Corners]({{ site.url }}/img/hot-corners.png)
 
 ____
 
 I have remapped my almost-never-used `Caps Lock` key to `Control` key. This comes in really handy when using with [Tmux key bindings](https://wiki.archlinux.org/index.php/tmux#Key_bindings) as `ctrl-a` is just 2 keys side by side. Setting: `System Preferences > Keyboard > Modifier Keys > Caps Lock Key`
 
-![Remapping keys](/img/remap.png)
+![Remapping keys]({{ site.url }}/img/remap.png)
 
-___ 
+___
 
 In terms of hidden or dotfiles, I like to show them. The following command in the Terminal will enable them:
 
 <pre><code class="language-bash">defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder
-</code></pre> 
+</code></pre>
 
 ##Installed packages
 
@@ -105,7 +105,7 @@ brew install autojump
 brew install tree
 brew install terminal-notifier
 brew install tmux
-</code></pre> 
+</code></pre>
 
 Next I installed packages that I use while programming in the [Ruby](https://www.ruby-lang.org/en/) ecosystem. I started with [RVM](https://rvm.io/rvm/install), then [Ruby](https://www.ruby-lang.org/en/) itself, [Git](http://git-scm.com/downloads) and [RubyGems](http://rubygems.org/pages/downloadgit). [Setting up Git](https://help.github.com/articles/set-up-git) and then [generating SSH Keys](https://help.github.com/articles/generating-ssh-keys) had me setup my Github as well.
 
@@ -130,7 +130,7 @@ npm install -g bower
 
 > I've known people who have not mastered their tools who are good programmers, but not a tool master who remained a mediocre programmer. ~ [Kent Beck](https://twitter.com/KentBeck/status/398623270917771264)
 
-Recently, I listened to a lovely episode from the [RubyRogues on Sharpening the Tools](http://rubyrogues.com/129-rr-sharpening-tools-with-ben-orenstein/). Couldn't agree more with the fact that as we are making and creating stuff, we will have to continuously keep note of steps that we are repeating or steps that are mildly erking us. 
+Recently, I listened to a lovely episode from the [RubyRogues on Sharpening the Tools](http://rubyrogues.com/129-rr-sharpening-tools-with-ben-orenstein/). Couldn't agree more with the fact that as we are making and creating stuff, we will have to continuously keep note of steps that we are repeating or steps that are mildly erking us.
 
 Can we do it smaller number of steps or in an easier way? I'm keeping a little scratch note of this and every few weeks I go back to it and find ways to improve. Whether it's amending my bash prompt to contain more information or linting while coding in my text editor - all these tiny steps add up to ease me into the *flow of creativity* every time I get down to work.
 
