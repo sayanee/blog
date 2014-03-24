@@ -5,3 +5,17 @@
       @include rotate(30deg)
   .title a
     color: $black
+
+.social
+  list-style-type: none
+  padding: 0
+  text-align: center
+  font-size: 1.5em
+  li
+    display: inline-block
+    margin: 0 5%
+  a
+    &:link, &:visited
+      color: $grey
+    &:hover, &:active
+      color: $black
