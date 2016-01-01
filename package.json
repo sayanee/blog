@@ -7,6 +7,13 @@
     "type": "git",
     "url": "https://github.com/sayanee/blog.git"
   },
+  "scripts": {
+    "start": "LC_CTYPE=\"en_US.UTF-8\" && LANG=\"en_US.UTF-8\" && jekyll serve --config _dev_config.yml --watch",
+    "build": "LC_CTYPE=\"en_US.UTF-8\" && LANG=\"en_US.UTF-8\" && jekyll build",
+    "watch": "grunt",
+    "build": "grunt publish && jekyll build",
+    "deploy": "git push origin gh-pages"
+  },
   "devDependencies": {
     "grunt": "0.4.1",
     "grunt-cli": "0.1.9",

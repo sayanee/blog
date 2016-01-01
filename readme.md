@@ -1,11 +1,10 @@
-#Blog of Sayanee
+#blog
 
 [![Build Status](https://travis-ci.org/sayanee/blog.png)](https://travis-ci.org/sayanee/blog)
 
+> my blog posts
 
-This repository contains the code for building the Blog of Sayanee.
-
-##Develop
+##develop
 
 1. run the following shell script in the terminal to start the project
 
@@ -13,7 +12,7 @@ This repository contains the code for building the Blog of Sayanee.
     blog
     ```
 
-##Deploy
+##deploy
 
 1. run the following git command to publish the changes
 
@@ -21,6 +20,6 @@ This repository contains the code for building the Blog of Sayanee.
     git push origin gh-pages
     ```
 
-##Credits
+##credits
 
-1. [Geometrical Alphabets](http://www.joaoricardomachado.com/Dear-Life-Alphabet) 
+1. [Geometrical Alphabets](http://www.joaoricardomachado.com/Dear-Life-Alphabet)
