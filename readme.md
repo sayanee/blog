@@ -7,6 +7,7 @@
 ## install
 
 1. clone with
+
   ```sh
   git clone git@github.com:sayanee/blog.git
   ```
