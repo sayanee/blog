@@ -1,4 +1,5 @@
-# blog [![Build Status](https://travis-ci.org/sayanee/blog.png)](https://travis-ci.org/sayanee/blog)
+# blog [![Build Status](https://travis-ci.org/sayanee/blog.png)](https://travis-ci.org/sayanee/blog) [![Dependency Status](https://gemnasium.com/badges/github.com/sayanee/blog.svg)](https://gemnasium.com/github.com/sayanee/blog)
+
 
 > my blog posts
 
