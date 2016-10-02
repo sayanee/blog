@@ -1,5 +1,5 @@
 ---
-layout: nil
+layout: null
 date: 2014-01-01
 ---
 <?xml version="1.0" encoding="utf-8"?>
@@ -24,5 +24,4 @@ date: 2014-01-01
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
-
 </feed>
