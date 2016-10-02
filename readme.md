@@ -1,6 +1,4 @@
-# blog
-
-[![Build Status](https://travis-ci.org/sayanee/blog.png)](https://travis-ci.org/sayanee/blog)
+# blog [![Build Status](https://travis-ci.org/sayanee/blog.png)](https://travis-ci.org/sayanee/blog)
 
 > my blog posts
 

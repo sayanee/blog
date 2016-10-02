@@ -3,7 +3,7 @@ cache: bundler
 rvm:
   - 2.0.0
 
-install: gem install jekyll
+install: gem install jekyll redcarpet
 script: jekyll build --safe
 
 branches:
