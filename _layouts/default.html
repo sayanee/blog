@@ -1,52 +1,36 @@
-<!DOCTYPE html>
-<!--
-__     __      __     _ _                                 _    _
-\ \   / /     / _|   | | |                               | |  | |
- \ \_/ /__   | |_ ___| | | _____      __   __ _  ___  ___| | _| |
-  \   / _ \  |  _/ _ \ | |/ _ \ \ /\ / /  / _` |/ _ \/ _ \ |/ / |
-   | | (_) | | ||  __/ | | (_) \ V  V /  | (_| |  __/  __/   <|_|
-   |_|\___/  |_| \___|_|_|\___/ \_/\_/    \__, |\___|\___|_|\_(_)
-                                           __/ |
-                                          |___/
--->
+<!doctype html>
 <html>
-{% include head.html %}
+  {% include head.html %}
 <body>
-  <!--[if lt IE 9]>
+  <!--[if lt IE 10]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
-<div class="site">
+  <div class="site">
+    {% include header.html %}
+    {{ content }}
+  </div>
 
-  {% include header.html %}
+  {% include footer.html %}
 
-  {{ content }}
+  <script src="/app.js"></script>
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-27338328-1');ga('send','pageview');
+  </script>
 
-</div>
-
-{% include footer.html %}
-
-<script src="{{ site.url }}/app.js"></script>
-<script>
-(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-e.src='//www.google-analytics.com/analytics.js';
-r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-ga('create','UA-27338328-1');ga('send','pageview');
-</script>
-
-<script type="text/javascript">
-/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-var disqus_shortname = 'blogsayanee'; // required: replace example with your forum shortname
-
-/* * * DON'T EDIT BELOW THIS LINE * * */
-(function () {
-var s = document.createElement('script'); s.async = true;
-s.type = 'text/javascript';
-s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
-(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-}());
-</script>
-</body>
+  <script>
+    var disqus_shortname = 'blogsayanee';
+    (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.type = 'text/javascript';
+      s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+  </script>
+  </body>
 </html>
