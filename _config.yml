@@ -3,6 +3,6 @@ description: on books, web and iot, minimalism, space
 destination: ./_publish
 permalink: /:title
 markdown: redcarpet
-url: http://blog.sayan.ee
+url: https://blog.sayan.ee
 
 exclude: ['sass', 'node_modules', 'Gruntfile.js', 'package.json', 'readme.md']
